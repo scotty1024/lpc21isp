@@ -43,3 +43,4 @@ To compile with gcc (linux, cygwin, ...)
   make -f Makefile.gnu clean all
 - Run (if you want to use gmake and gcc)
   gmake -f Makefile.gnu clean all
+lpc21isp -wipe DFU-Bootloader.hex /dev/ttyACM0 230400 12000
